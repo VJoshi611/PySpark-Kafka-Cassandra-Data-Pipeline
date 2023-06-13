@@ -9,6 +9,10 @@ Tech Stack and Tools : Pyspark, Kafka, Docker, Cassandra, Vscode.
 ![untitled (1)](https://user-images.githubusercontent.com/115451707/219657272-0b190c35-b148-43d3-a30f-7611705f3a6f.png)
 
 
+## Unzip the script.zip file. Open the folder in Vscode.
+Docker, Vscode should be already installed in your local machine.\
+In Vscode Extension, Install python, cassandra workbench.
+
 ## Steps to setup projects
 Run docker commands in vscode terminal :-__
 
@@ -22,7 +26,9 @@ To stop the setup
 docker-compose -f docker-compose.yml down --remove-orphans 
 ```
 
-Install few extension in vscode to work with cassandra db
+Install few extension in vscode to work with cassandra db.\
+In Extension, Refer cassandra workbench for configuration guidelines for connecting pyspark script and cassandra 
+
 1. Cassandra Workbench
 
 Create a keysapce with name "projectkeyspace"
