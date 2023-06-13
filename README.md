@@ -37,13 +37,13 @@ CREATE KEYSPACE projectkeyspace
 
 Create a table Employee
 ```
- CREATE TABLE projectkeyspace.employee(
-     emp_id INT,
-     emp_name text,
-     city text,
-     state text,
-     primary key (emp_id)
- );
+CREATE TABLE projectkeyspace.EMPLOYEE(
+     EMP_ID INT,
+     EMP_NAME text,
+     CITY text,
+     STATE text,
+     primary key (EMP_ID)
+);
 ```
 
 > To insert records into Employee table refer CQL_SCRIPT.cql
