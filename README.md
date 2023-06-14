@@ -31,7 +31,7 @@ In Extension, Refer cassandra workbench for configuration guidelines for connect
 
 1. Cassandra Workbench
 
-Create a keysapce with name "projectkeyspace"
+Creating a keysapce with name "projectkeyspace"
 ```
 CREATE KEYSPACE projectkeyspace
 	WITH REPLICATION = {
@@ -41,7 +41,7 @@ CREATE KEYSPACE projectkeyspace
 	AND DURABLE_WRITES = true;
 ```
 
-Create a table Employee
+Creating a Employee table.
 ```
 CREATE TABLE projectkeyspace.EMPLOYEE(
      EMP_ID INT,
@@ -65,3 +65,10 @@ To launch consumer script
 ```
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.0.1 consumer.py 
 ```
+
+
+
+If you face any kind of issue/error then contact me. I will be happy to help you.
+Do share your valuable feedback.
+
+THANK YOU!!
