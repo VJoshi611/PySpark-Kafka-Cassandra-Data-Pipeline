@@ -1,7 +1,7 @@
 # PySpark-Kafka-Cassandra-Data-Pipeline
 It is near real time Streaming and Batch Data Pipeline.
 
-Tech Stack and Tools : Pyspark, Kafka, Docker, Cassandra, Vscode.
+Tech Stack and Tools : Pyspark, Kafka, Docker, Cassandra, Python, Vscode.
 
 
 
